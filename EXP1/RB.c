@@ -5,7 +5,7 @@
    Date of Execution: 06-09-2022
 */
 #include<stdio.h>
-int main(){
+main(){
 int i,j,n,bu[10],wa[10],tat[10],t,ct[10],max;
 float awt=0,att=0,temp=0;
 printf("Enter the no of processes -- ");
