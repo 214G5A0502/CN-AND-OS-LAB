@@ -5,7 +5,7 @@
    Date of Execution: 06-09-2022
 */
 #include<stdio.h>
-main(){
+int main(){
 int i,j,n,bu[10],wa[10],tat[10],t,ct[10],max;
 float awt=0,att=0,temp=0;
 printf("Enter the no of processes -- ");
@@ -43,4 +43,5 @@ printf("\nThe Average Waiting time is -- %f ",awt/n);
 printf("\n\tPROCESS\t BURST TIME \t WAITING TIME\tTURNAROUND TIME\n");
 for(i=0;i<n;i++)
 printf("\t%d \t %d \t\t %d \t\t %d \n",i+1,ct[i],wa[i],tat[i]);
-return 0;}
+return 0;
+}
