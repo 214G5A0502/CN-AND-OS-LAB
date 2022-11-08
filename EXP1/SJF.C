@@ -10,7 +10,7 @@ int main()
 {
 int p[20], bt[20], wt[20], tat[20], i, k, n, temp; float wtavg,
 tatavg;
-clrscr();
+//clrscr();
 printf("\nEnter the number of processes -- ");
 
 scanf("%d", &n);
